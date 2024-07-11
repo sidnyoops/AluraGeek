@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "El Señor de los Anillos",
+      "precio": 29.99,
+      "imagen": "producto1.png"
+    },
+    {
+      "id": "2",
+      "nombre": "Cien años de soledad",
+      "precio": 24.5,
+      "imagen": "producto2.png"
+    },
+    {
+      "id": "3",
+      "nombre": "Harry Potter y la piedra filosofal",
+      "precio": 19.95,
+      "imagen": "producto3.png"
+    },
+    {
+      "id": "4",
+      "nombre": "Don Quijote de la Mancha",
+      "precio": 32,
+      "imagen": "producto4.png"
+    },
+    {
+      "id": "5",
+      "nombre": "Orgullo y prejuicio",
+      "precio": 18.75,
+      "imagen": "producto5.png"
+    },
+    {
+      "id": "6",
+      "nombre": "1984",
+      "precio": 21.3,
+      "imagen": "producto6.png"
+    },
+    {
+      "id": "7",
+      "nombre": "Rayuela",
+      "precio": 23.45,
+      "imagen": "producto7.png"
+    },
+    {
+      "id": "8",
+      "nombre": "La sombra del viento",
+      "precio": 27.8,
+      "imagen": "producto8.png"
+    },
+    {
+      "id": "9",
+      "nombre": "Matar a un ruiseñor",
+      "precio": 22,
+      "imagen": "producto9.png"
+    }
+  ]
+}

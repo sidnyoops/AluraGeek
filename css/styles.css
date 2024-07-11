@@ -1,0 +1,146 @@
+/* Archivo: css/styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 80px; /* Agregar margen inferior para la separación */
+}
+
+.productos, .formulario {
+    width: 48%;
+}
+
+.productos h2, .formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 60vh;
+    overflow-y: auto;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.card {
+    width: 100%;
+    max-width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-container--info {
+    padding: 10px;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-productos {
+    width: 100%;
+    text-align: center;
+    color: #888;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: #000;
+    color: white;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #ccc;
+    color: black;
+}
+
+.footer {
+    background-color: #5404cb;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: auto;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer img {
+    width: 600px;
+    height: auto;
+}
